@@ -1,6 +1,8 @@
 # PyTAGS
 Python package for the Temporal Analysis of GNSS Strains
+
 Brendan Crowell, University of Washington
+
 Last edited September 18, 2018
 
 
