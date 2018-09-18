@@ -1,0 +1,35 @@
+####################################################
+#Overall properties
+#strainmode, 0 for triangulated, 1 for gridded
+#temporal mode, 0 for time series, 1 for static velocity file
+####################################################
+strainmode=0
+temporalmode=0
+sitefile=california_sites.txt
+datadir=data_sopac/
+#datasource, either sopac or pbo currently
+datasource=sopac
+#data suffix refers to all material after site code, including punctuation
+datasuffix=CleanTrend.neu
+#datasuffix=.pbo.final_igs08.pos
+
+#starting and ending years of analysis, end year is inclusive of year
+startyear=1995
+endyear=2018
+
+####################################################
+#Gridding properties
+#sets the min/max dimensions and number of grid points, nlon and nlat
+####################################################
+
+maxlon=-121.5
+minlon=-124.5
+maxlat=48.0
+minlat=48.0
+nlon=20 
+nlat=1
+griddistweight=10
+##triangulation properties
+#maximum dimension of a triangle side, in km
+maxtrilength=100
+
