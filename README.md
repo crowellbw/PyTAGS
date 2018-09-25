@@ -14,4 +14,7 @@ For data, both SOPAC and UNAVCO/PBO time series formats should work. I tested SO
 
 There are two strain modes, both of which work right now, triangulated and gridded strains. 
 
-The only temporal mode that works right now is daily time series. I do intend to add high-rate time series to this (reading from SAC or MSEED format), but right now I haven't coded it up. There is another temporal mode for a static velocity file (in GMT psvelo format) and I'm fairly certain this works.
+There are two temporal modes that work right now, daily time series and static velocity file (in GMT psvelo format). I do intend to add high-rate time series to this (reading from SAC or MSEED format), but right now I haven't coded it up. 
+
+
+To run static velocity file, change temporal mode to 1 in 'pytags.props'. 
