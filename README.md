@@ -5,6 +5,10 @@ Brendan Crowell, University of Washington
 
 Last edited September 18, 2018
 
+If used in publications, please cite:
+
+Crowell, B.W. (2019), PyTAGS: A Python package for the temporal analysis of GNSS strains, V1.0, doi: 10.5281/zenodo.2634525.
+
 
 This is still very much a work in progress, this will run with the properties in the current pytags.props file. Its currently setup for Python3.
 
