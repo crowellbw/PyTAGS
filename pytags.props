@@ -22,12 +22,12 @@ endyear=2018
 #sets the min/max dimensions and number of grid points, nlon and nlat
 ####################################################
 
-maxlon=-121.5
-minlon=-124.5
-maxlat=48.0
-minlat=48.0
-nlon=20 
-nlat=1
+maxlon=-119.5
+minlon=-122.5
+maxlat=36.0
+minlat=34.0
+nlon=10 
+nlat=10
 griddistweight=10
 ##triangulation properties
 #maximum dimension of a triangle side, in km
